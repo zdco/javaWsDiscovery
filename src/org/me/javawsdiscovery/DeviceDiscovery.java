@@ -21,7 +21,7 @@ import org.w3c.dom.*;
 public class DeviceDiscovery {
 	public static String WS_DISCOVERY_SOAP_VERSION = "SOAP 1.2 Protocol";
 	public static String WS_DISCOVERY_CONTENT_TYPE = "application/soap+xml";
-	public static int WS_DISCOVERY_TIMEOUT = 10000;
+	public static int WS_DISCOVERY_TIMEOUT = 3000;
 	public static int WS_DISCOVERY_PORT = 3702;
 	public static String WS_DISCOVERY_ADDRESS_IPv4 = "239.255.255.250";
 	/**
